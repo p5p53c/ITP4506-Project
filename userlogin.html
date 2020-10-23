@@ -11,11 +11,11 @@
 		function submit() {
 			var email = document.getElementById("inputEmail").value;
 			var pwd = document.getElementById("inputPassword").value;
-			if (pwd == "manager" && email == "manager")
+			if (pwd == email && email == "manager")
 				location.href = "managermain.html";
-			else if (pwd == "agent" && email == "agent")
+			else if (pwd == email && email == "agent")
 				location.href = "agentmain.html";
-			else if (pwd == "user" && email == "user")
+			else if (pwd == email && email == "user")
 				location.href = "usermain.html";
 			else
 				alert("Your email or password is wrong! Please check your username and password")
