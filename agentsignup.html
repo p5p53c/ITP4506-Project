@@ -1,0 +1,47 @@
+<!doctype html>
+
+<head>
+    <title>Dream House Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="register.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <form class="form-register" method="POST" action="<?php $_SERVER['PHP_SELF'] ?>">
+        <h1 class="h3 mb-3 font-weight-normal">Please fill in your information</h1>
+
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
+
+        <label for="inputConfirmPassword" class="sr-only">Password</label>
+        <input type="password" name="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+
+        <label for="inputFirstName" class="sr-only">First Name</label>
+        <input type="text" name="inputFirstName" class="form-control" placeholder="First Name" required>
+
+        <label for="inputLastName" class="sr-only">Last Name</label>
+        <input type="text" name="inputLastName" class="form-control" placeholder="Last Name" required>
+
+        <label for="inputPhone" class="sr-only">Registeration Number</label>
+        <input type="text" name="inputregisternumber" class="form-control" placeholder="Registeration Number" required>
+
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+        <div class="loginlink">
+            <label>
+                <a href="agentlogin.html"> Already have an Property Agent account? </a> <br>
+                <a href="loginselect.html"> Back to Login Selection</a>
+            </label>
+        </div>
+        <p class="mt-5 mb-3 text-muted">&copy; Dream House Property HK Inc <br> 2017-2020</p>
+    </form>
+</body>
+
+</html>
