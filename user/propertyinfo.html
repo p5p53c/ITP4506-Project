@@ -1,10 +1,10 @@
 <!doctype html>
 
 <head>
-    <title>Agent Profile</title>
+    <title>Property Information</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
 </head>
@@ -18,24 +18,28 @@
         <form class="form-profile">
             <table class="table table-bordered">
                 <tr>
-                    <td>Name</td>
-                    <td><input type="text" name="name" value="Ryan Scot"></td>
+                    <td>Property Name</td>
+                    <td><input type="text" name="name" value="Mid Level"></td>
                 </tr>
                 <tr>
-                    <td>Password</td>
-                    <td><input type="password" name="password" value="123456789"></td>
+                    <td>Property Address</td>
+                    <td><input type="text" name="address" value="Central"></td>
                 </tr>
                 <tr>
-                    <td>Agent Registeration Number</td>
-                    <td><input type="text" name="Registeration" value="HK01205384"></td>
+                    <td>Area</td>
+                    <td><input type="text" name="area" value="1000">ft2</td>
                 </tr>
                 <tr>
-                    <td>Join Date</td>
-                    <td><input type="date" name="joindate" value="2020-09-27"></td>
+                    <td>Status</td>
+                    <td><input type="radio" name="status" value="Rental" checked>Rental <input type="radio" name="status" value="Sale">Sale</td>
                 </tr>
                 <tr>
-                    <td>Account Status</td>
-                    <td><input type="text" name="status" value="Enable"></td>
+                    <td>Pin</td>
+                    <td><input type="radio" name="pin" value="yes">Yes <input type="radio" name="pin" value="no" checked>No</td>
+                </tr>
+                <tr>
+                    <td>Promotion</td>
+                    <td><input type="radio" name="promo" value="yes">Yes <input type="radio" name="probo" value="no" checked>No</td>
                 </tr>
             </table>
             <div class="container">
@@ -44,10 +48,13 @@
                         <input type="submit" id="update" value="Update">
                     </div>
                     <div class="col">
-                        <input type="button" id="delete" value="Delete Account">
+                        <input type="button" id="delete" value="Delete Property">
                     </div>
                     <div class="col">
                         <input type="reset" id="cancel" value="Cancel">
+                    </div>
+                    <div class="col">
+                        <input type="reset" id="hide" value="Hide">
                     </div>
                 </div>
             </div>
