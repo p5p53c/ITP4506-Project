@@ -7,11 +7,48 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#district").change(function () {
+                var dist = $(this).val();
+                if (dist == "NT") {
+                    $("#NT").show();
+                    $("#KL").hide();
+                    $("#HKI").hide();
+                }
+                if (dist == "KL") {
+                    $("#NT").hide();
+                    $("#KL").show();
+                    $("#HKI").hide();
+                }
+                if (dist == "HKI") {
+                    $("#NT").hide();
+                    $("#KL").hide();
+                    $("#HKI").show();
+                }
+            })
+
+            $("#status").change(function () {
+                var stat = $(this).val();
+                if (stat == "rental") {
+                    $("#NT").hide();
+                    $("#KL").hide();
+                    $("#HKI").show();
+                }
+                if (stat == "sale") {
+                    $("#NT").show();
+                    $("#KL").hide();
+                    $("#HKI").hide();
+                }
+            })
+        })
+    </script>
 </head>
 
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="usermain.html">Dream House Online</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="usermain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
 		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="userprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Profile</a></h5>
 		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="userappointment.html"><img src = "..\icon\appointment.png" height="20" width="20">Appointment Table</a></h5>
 		<h5 class="my-0 mr-md-auto font-weight-normal"><img src = "..\icon\search.png" height="20" width="20">Search</a></h5>
@@ -20,45 +57,63 @@
 
     <div class="container">
         <footer class="border-bottom">
-        <div class="row">
-            <div class="col">Name</div>
-            <div class="col">District</div>
-            <div class="col">Status</div>
-            <div class="col">Price</div>
-        </div>
-        <div class="row">
-            <div class="col"><input type="text" name="search"></div>
-            <div class="col">
-                <select name="district" id="district">
-                <option value="NT">New Territories</option>
-                <option value="KL">Kowloon</option>
-                <option value="HKI">Hong Kong Island</option>
-              </select></div>
-              <div class="col">
-                <select name="status" id="statud">
-                <option value="rental">Renatl</option>
-                <option value="sale">Sale</option>
-              </select></div>
-              <div class="col"><input type="text" name="price"></div>
-        </div>
+            <div class="row">
+                <div class="col">Name</div>
+                <div class="col">District</div>
+                <div class="col">Status</div>
+                <div class="col">Price</div>
+            </div>
+            <div class="row">
+                <div class="col"><input type="text" name="search"></div>
+                <div class="col">
+                    <select name="district" id="district">
+                    <option value="NT">New Territories</option>
+                    <option value="KL">Kowloon</option>
+                    <option value="HKI">Hong Kong Island</option>
+                  </select></div>
+                  <div class="col">
+                    <select name="status" id="status">
+                    <option value="rental">Rental</option>
+                    <option value="sale">Sale</option>
+                  </select></div>
+                  <div class="col"><input type="text" name="price"></div>
+            </div>
         </footer>
         <div class="row">
             <div class="col">Name</div>
             <div class="col">District</div>
-            <div class="col">Area</div>
+            <div class="col">Area (sq.ft)</div>
             <div class="col">Status</div>
             <div class="col">Agent</div>
             <div class="col">Price</div>
             <div class="col">View</div>
         </div>
-        <div class="row">
+        <div class="row" id="HKI">
             <div class="col">Mid Level</div>
-            <div class="col">Centeral</div>
-            <div class="col">1000</div>
+            <div class="col">Central</div>
+            <div class="col">491</div>
             <div class="col">Rental</div>
-            <div class="col">$11000/ month</div>
             <div class="col">Ryan Scot</div>
-            <div class="col"><input type="button" value="View" onclick="location.href='userproperty.html'"></div>
+            <div class="col">$11000</div>
+            <div class="col"><input type="button" value="View" onclick="location.href='Midproperty.html'"></div>
+        </div>
+        <div class="row" id="NT">
+            <div class="col">Sea to Sky</div>
+            <div class="col">Tseung Kwan O</div>
+            <div class="col">817</div>
+            <div class="col">Sale</div>
+            <div class="col">Ryan Scot</div>
+            <div class="col">$26.05M</div>
+            <div class="col"><input type="button" value="View" onclick="location.href='Seaproperty.html'"></div>
+        </div>
+        <div class="row" id="KL">
+            <div class="col">KOKO HILLS</div>
+            <div class="col">Lam Tin</div>
+            <div class="col">1031</div>
+            <div class="col">Sale</div>
+            <div class="col">Ryan Scot</div>
+            <div class="col">$22.59M</div>
+            <div class="col"><input type="button" value="View" onclick="location.href='Kokoproperty.html'"></div>
         </div>
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">

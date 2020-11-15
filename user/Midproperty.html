@@ -7,20 +7,32 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#appointment").click(function () {
+                if (confirm("Do you want to make an appointment for Ryan Scott to see Mid Level")) {
+                    var time = prompt("What time do you want to make an appointment(08:00 - 17:00)");
+                    alert("Your appointment has been sent to Ryan Scot");
+                } else {
+                    alert("Canceled");
+                }
+            })
+        })
+    </script>
 </head>
 
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="managermain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="managerprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Manager Profile</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="propertymanagement.html"><img src = "..\icon\list.png" height="20" width="20">Uploaded Property List</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="usermain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
+		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="userprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Profile</a></h5>
 		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="userappointment.html"><img src = "..\icon\appointment.png" height="20" width="20">Appointment Table</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="agentmanagement.html"><img src = "..\icon\profile.png" height="20" width="20">Agent Management</a></h5>
+		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="usersearch.html"><img src = "..\icon\search.png" height="20" width="20">Search</a></h5>
         <a class="btn btn-outline-primary" href="..\index.html"><img src = "..\icon\logout.ico" height="20" width="20"> Logout</a>
     </div>
     <div class="container">
         <form class="form-profile">
-			<img src="..\icon\Property.jpg" height="20%" width="100%">
+			<img src="..\property\Midlevel.jpg" height="450" width="100%">
             <table class="table table-bordered">
                 <tr>
                     <td>Property Name</td>
@@ -32,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>Area</td>
-                    <td>1000 ft2</td>
+                    <td>491 sq.ft</td>
                 </tr>
                 <tr>
                     <td>Status</td>
@@ -54,15 +66,16 @@
                     <td>Agent</td>
                     <td>Ryan Scot</td>
                 </tr>
+				
             </table>
         </form>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <input type="button" id="hide" value="Back" onclick="location.href='usermain.html'">
+                    <input type="button" id="back" value="Back" onclick="location.href='usersearch.html'">
                 </div>
                 <div class="col">
-                    <input type="button" id="hide" value="Appointment">
+                    <input type="button" id="appointment" value="Appointment">
                 </div>
             </div>
         </div>
@@ -79,49 +92,6 @@
             <div class="col"><input type="button" value="Comment"></div>
         </div>
     </footer>
-    </div>
-	<center><h1>Edit<img src="..\icon\downarrow.png" height="30" width="30"><h1></center>
-	<div class="container">
-        <form class="form-profile">
-            <table class="table table-bordered">
-                <tr>
-                    <td>Property Name</td>
-                    <td><input type="text" name="name" value="Mid Level"></td>
-                </tr>
-                <tr>
-                    <td>Property Address</td>
-                    <td><input type="text" name="address" value="Central"></td>
-                </tr>
-                <tr>
-                    <td>Area</td>
-                    <td><input type="number" name="area" value="1000">ft2</td>
-                </tr>
-                <tr>
-                    <td>Status</td>
-                    <td><input type="radio" name="status" value="Rental" checked>Rental | <input type="radio" name="status" value="Sale">Sale | <input type="radio" name="status" value="Hide">Hide</td>
-                </tr>
-                <tr>
-                    <td>Promotion</td>
-                    <td><input type="radio" name="promo" value="yes">Yes <input type="radio" name="promo" value="no" checked>No</td>
-                </tr>
-            </table>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <input type="submit" id="update" value="Update">
-                    </div>
-                    <div class="col">
-                        <input type="button" id="pin" value="Pin">
-                    </div>
-                    <div class="col">
-                        <input type="button" id="delete" value="Delete Property">
-                    </div>
-                    <div class="col">
-                        <input type="reset" id="cancel" value="Cancel">
-                    </div>
-                </div>
-            </div>
-        </form>
     </div>
     <div class="container">
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
