@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ITP4506-Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/userappointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jslib/jquery-1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jslib/jquery-1.6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jslib/welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property/Midlevel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property/Seatosky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property/koko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/Midproperty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/Seaproperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/addproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/addproperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agentmain.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agentmain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agentprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agentprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/propertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/propertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/propertymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/propertymanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/agentmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/agentmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/managerprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/managerprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/propertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/propertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/propertymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/propertymanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/userappointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/propertyinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/userappointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/userprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/Kokoproperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/usersearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/usersearch.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kJhoxE6BTDHNfWJfeWhvqEuwhR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="" />
+      <created>1605424780031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605424780031</updated>
+      <workItem from="1605424781587" duration="9871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605425544219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605425544219" />
+  </component>
+</project>
