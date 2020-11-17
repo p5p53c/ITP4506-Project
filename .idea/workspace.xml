@@ -19,23 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Change Many things">
-      <change afterPath="$PROJECT_DIR$/agent/Midpropertyinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/Seapropertyinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/addproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/addproperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/agentprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agentprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/propertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/Kokopropertyinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/propertymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/propertymanagement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/userappointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/propertymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/propertymanagement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/userappointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Kokoproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/Kokoproperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Midproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/Midproperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Seaproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/Seaproperty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/userappointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/usersearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/usersearch.html" afterDir="false" />
-    </list>
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Change Many things" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +70,7 @@
       <updated>1605424780031</updated>
       <workItem from="1605424781587" duration="10563000" />
       <workItem from="1605520407437" duration="4731000" />
-      <workItem from="1605595925326" duration="3123000" />
+      <workItem from="1605595925326" duration="3432000" />
     </task>
     <task id="LOCAL-00001" summary="Change Many things">
       <created>1605436430199</created>
@@ -102,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605436444776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change Many things">
+      <created>1605599488817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605599488817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,9 +121,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605425544219" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605436454687">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605599496590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605436454687" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605599496590" />
   </component>
 </project>
