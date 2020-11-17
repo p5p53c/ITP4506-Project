@@ -1,0 +1,103 @@
+<!doctype html>
+
+<head>
+    <title>Appointment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            var price;
+            var loanratio;
+            var loanamount;
+            var rate;
+            var months;
+            var amount;
+            $("#price").change(function () {
+                price = this.value;
+                price *= 1000000;
+                <!--alert(price);-->
+            })
+            $("#loanratio").change(function () {
+                loanratio = this.value;
+                loanratio = loanratio / 100;
+                <!--alert(loanratio);-->
+                loanamount = price * loanratio;
+                document.getElementById("loanamount").value = loanamount;
+            })
+            $("#interestrate").change(function () {
+                rate = this.value / 100;
+            })
+            $("#loanperiods").change(function () {
+                months = this.value * 12;
+                document.getElementById("loanmonths").value = months;
+                calc();
+            })
+            function calc() {
+                amount = (price * rate * ((1 + rate) ^ months)) / (((1 + rate) ^ months) - 1);
+                amount = amount.toFixed(1);
+                document.getElementById("contributions").value = amount;
+            }
+        })
+    </script>
+</head>
+
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="usermain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="userprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Profile</a></h5>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="userappointment.html"><img src = "..\icon\appointment.png" height="20" width="20">Appointment Table</a></h5>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><img src = "..\icon\search.png" height="20" width="20">Search</a></h5>
+    <a class="btn btn-outline-primary" href="..\index.html"><img src = "..\icon\logout.ico" height="20" width="20"> Logout</a>
+</div>
+
+<div class="container-md">
+    <form class="form-profile">
+        <table>
+            <tr>
+                <td>Property price (in millions)</td>
+                <td><input type="number" id="price"></td>
+            </tr>
+            <tr><td>(Enter the property price (in millions, such as 8 million for 8 million and 10 for 10 million))</td></tr>
+            <tr>
+                <td>Enter the loan ratio (minimum 50%, maximum 90%)</td>
+                <td><input type="number" id="loanratio" min="50" max="90" maxlength="2"></td>
+            </tr>
+            <tr>
+                <td>Loan amount(This is the calculated result and no input is required.)</td>
+                <td><input type="number" id="loanamount" readonly></td>
+            </tr>
+            <tr>
+                <td>interest rate*</td>
+                <td><input type="number" id="interestrate"></td>
+            </tr>
+            <tr>
+                <td>Number of loan periods*</td>
+                <td><input type="number" id="loanperiods"></td>
+            </tr>
+            <tr>
+                <td>Number of loan periods (months)</td>
+                <td><input type="number" id="loanmonths" readonly></td>
+            </tr>
+            <tr>
+                <td>Contributions per installment(This is the calculated result and no input is required.)</td>
+                <td><input type="number" id="contributions" readonly></td>
+            </tr>
+
+        </table>
+    </form>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                Dream House Property HK Inc
+                <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

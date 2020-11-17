@@ -19,11 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Change Many things" />
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Fix Sign up Problem">
+      <change afterPath="$PROJECT_DIR$/user/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -71,6 +82,7 @@
       <workItem from="1605424781587" duration="10563000" />
       <workItem from="1605520407437" duration="4731000" />
       <workItem from="1605595925326" duration="3432000" />
+      <workItem from="1605606091672" duration="5075000" />
     </task>
     <task id="LOCAL-00001" summary="Change Many things">
       <created>1605436430199</created>
@@ -93,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605599488817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix Sign up Problem">
+      <created>1605606148608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605606148608</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,16 +133,21 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Change Many things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Many things" />
+    <MESSAGE value="Fix Sign up Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Sign up Problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="164" key="SettingsEditor" timestamp="1605425544219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605425544219" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605599496590">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605606154418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605599496590" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605606154418" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1605622500332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605622500332" />
   </component>
 </project>
