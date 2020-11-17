@@ -12,6 +12,7 @@
         $(document).ready(function () {
             $("#appointment").click(function () {
                 if (confirm("Do you want to make an appointment for Ryan Scott to see Sea to Sky")) {
+                    var date = prompt("Which day do you want to make an appointment(23/11/2020 - 30/11/2020)");
                     var time = prompt("What time do you want to make an appointment(08:00 - 17:00)");
                     alert("Your appointment has been sent to Ryan Scot");
                 } else {
