@@ -11,7 +11,6 @@
     <script>
         $(document).ready(function () {
             var price;
-            var loanratio;
             var loanamount;
             var rate;
             var months;
@@ -20,16 +19,18 @@
                 price = this.value;
                 price *= 1000000;
                 <!--alert(price);-->
+				calc();
             })
             $("#loanratio").change(function () {
-                loanratio = this.value;
-                loanratio = loanratio / 100;
                 <!--alert(loanratio);-->
-                loanamount = price * loanratio;
+                loanamount = price * (this.value / 100);
                 document.getElementById("loanamount").value = loanamount;
+				calc();
             })
             $("#interestrate").change(function () {
-                rate = this.value / 100;
+                rate = this.value / 1200;
+				alert(rate);
+				calc();
             })
             $("#loanperiods").change(function () {
                 months = this.value * 12;
@@ -37,9 +38,8 @@
                 calc();
             })
             function calc() {
-                amount = (price * rate * ((1 + rate) ^ months)) / (((1 + rate) ^ months) - 1);
-                amount = amount.toFixed(1);
-                document.getElementById("contributions").value = amount;
+                amount = ((loanamount * rate) / (1-Math.pow(1 + rate, (months * -1))) * 100) / 100;
+                document.getElementById("contributions").value = Math.round(amount);
             }
         })
     </script>
