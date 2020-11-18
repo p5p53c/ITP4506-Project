@@ -7,31 +7,33 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="register.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script src="register.js" ></script>
 </head>
 
 <body class="text-center">
 
-    <form class="form-register">
+    <form class="form-register" onsubmit="register(this);">
         <h1 class="h3 mb-3 font-weight-normal"><p align="left"><a href="..\index.html"><img src="..\icon\downarrow.png" height="30" width="30" class="rotate90">Back</a></p></h1>
         <h1 class="h3 mb-3 font-weight-normal">Please fill in your information</h1>
 
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
 
         <label for="inputConfirmPassword" class="sr-only">Password</label>
-        <input type="password" name="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+        <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required>
 
         <label for="inputFirstName" class="sr-only">First Name</label>
-        <input type="text" name="inputFirstName" class="form-control" placeholder="First Name" required>
+        <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required>
 
         <label for="inputLastName" class="sr-only">Last Name</label>
-        <input type="text" name="inputLastName" class="form-control" placeholder="Last Name" required>
+        <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required>
 
         <label for="inputPhone" class="sr-only">Registeration Number</label>
-        <input type="text" name="inputregisternumber" class="form-control" placeholder="Registeration Number" required>
+        <input type="text" id="inputPhone" class="form-control" placeholder="Registeration Number" required>
 
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>

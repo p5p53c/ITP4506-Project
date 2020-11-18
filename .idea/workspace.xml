@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="change many things">
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Fix Register page">
+      <change afterPath="$PROJECT_DIR$/register/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/agentsignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/agentsignup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/usersignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/usersignup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <workItem from="1605520407437" duration="4731000" />
       <workItem from="1605595925326" duration="3432000" />
       <workItem from="1605606091672" duration="5593000" />
-      <workItem from="1605684012257" duration="4960000" />
+      <workItem from="1605684012257" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="Change Many things">
       <created>1605436430199</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605688313453</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix Register page">
+      <created>1605689212958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605689212958</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,17 +169,18 @@
     <MESSAGE value="Fix Sign up Problem" />
     <MESSAGE value="Mortgage Calculator" />
     <MESSAGE value="change many things" />
-    <option name="LAST_COMMIT_MESSAGE" value="change many things" />
+    <MESSAGE value="Fix Register page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Register page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="164" key="SettingsEditor" timestamp="1605685116675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605685116675" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605688317425">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605689218807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605688317425" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605689218807" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605685538470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
