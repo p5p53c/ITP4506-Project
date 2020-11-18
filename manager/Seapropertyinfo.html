@@ -22,7 +22,7 @@
 
             $("#update").click(function () {
                 alert("Info updated");
-                location.href = "Midpropertyinfo.html";
+                location.href = "Seapropertyinfo.html";
             })
 
             $("#pin").click(function () {
@@ -35,32 +35,32 @@
 
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="agentmain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="agentprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Agent Profile</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="addproperty.html"><img src = "..\icon\upload.png" height="20" width="20">Upload New Property</a></h5>
-		<h5 class="my-0 mr-md-auto font-weight-normal"><a href="propertymanagement.html"><img src = "..\icon\list.png" height="20" width="20">Uploaded Property List</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="managermain.html"><img src="..\icon\home.png" height="20" width="20">Dream House Online</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="managerprofile.html"><img src = "..\icon\profile.png" height="20" width="20">Manager Profile</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="propertymanagement.html"><img src = "..\icon\list.png" height="20" width="20">Uploaded Property List</a></h5>
         <h5 class="my-0 mr-md-auto font-weight-normal"><a href="userappointment.html"><img src = "..\icon\appointment.png" height="20" width="20">Appointment Table</a></h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a href="agentmanagement.html"><img src = "..\icon\profile.png" height="20" width="20">Agent Management</a></h5>
         <a class="btn btn-outline-primary" href="..\index.html"><img src = "..\icon\logout.ico" height="20" width="20"> Logout</a>
     </div>
     <div class="container">
         <form class="form-profile">
-			<img src="..\property\Midlevel.jpg" height="450" width="100%">
+			<img src="..\property\Seatosky.jpg" height="450" width="100%">
             <table class="table table-bordered">
                 <tr>
                     <td>Property Name</td>
-                    <td>Midlevel</td>
+                    <td>Sea to Sky</td>
                 </tr>
                 <tr>
                     <td>District/ Address</td>
-                    <td>Central</td>
+                    <td>Tseung Kwan O</td>
                 </tr>
                 <tr>
                     <td>Area</td>
-                    <td>491 sq.ft</td>
+                    <td>817 sq.ft</td>
                 </tr>
                 <tr>
                     <td>Status</td>
-                    <td>Rental</td>
+                    <td>Sale</td>
                 </tr>
                 <tr>
                     <td>Pin</td>
@@ -71,8 +71,8 @@
                     <td>No</td>
                 </tr>
                 <tr>
-                    <td>Rent/Month</td>
-                    <td>$11000</td>
+                    <td>Price</td>
+                    <td>$26.05M</td>
                 </tr>
                 <tr>
                     <td>Agent</td>
@@ -100,19 +100,19 @@
             <table class="table table-bordered">
                 <tr>
                     <td>Property Name</td>
-                    <td><input type="text" name="name" value="Mid Level"></td>
+                    <td><input type="text" name="name" value="Sea to Sky"></td>
                 </tr>
                 <tr>
                     <td>Property Address</td>
-                    <td><input type="text" name="address" value="Central"></td>
+                    <td><input type="text" name="address" value="Tseung Kwan O"></td>
                 </tr>
                 <tr>
                     <td>Area</td>
-                    <td><input type="number" name="area" value="1000">ft2</td>
+                    <td><input type="number" name="area" value="817">sq.ft</td>
                 </tr>
                 <tr>
                     <td>Status</td>
-                    <td><input type="radio" name="status" value="Rental" checked>Rental | <input type="radio" name="status" value="Sale">Sale | <input type="radio" name="status" value="Hide">Hide</td>
+                    <td><input type="radio" name="status" value="Rental" >Rental | <input type="radio" name="status" value="Sale" checked>Sale | <input type="radio" name="status" value="Hide">Hide</td>
                 </tr>
                 <tr>
                     <td>Promotion</td>
@@ -122,7 +122,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <input type="submit" id="update" value="Update">
+                        <input type="button" id="update" value="Update">
                     </div>
                     <div class="col">
                         <input type="button" id="pin" value="Pin">

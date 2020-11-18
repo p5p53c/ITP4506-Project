@@ -7,6 +7,20 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#delete").click(function () {
+                alert("Account deleted");
+                location.href="../index.html";
+            })
+
+            $("#update").click(function () {
+                alert("Info updated");
+                location.href = "usermain.html";
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -41,7 +55,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <input type="submit" id="update" value="Update">
+                        <input type="button" id="update" value="Update">
                     </div>
                     <div class="col">
                         <input type="button" id="delete" value="Delete Account">

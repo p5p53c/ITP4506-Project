@@ -12,6 +12,11 @@
         $(document).ready(function () {
             $("#district").change(function () {
                 var dist = $(this).val();
+                if (dist == "") {
+                    $("#NT").show();
+                    $("#KL").show();
+                    $("#HKI").show();
+                }
                 if (dist == "NT") {
                     $("#NT").show();
                     $("#KL").hide();
@@ -31,6 +36,11 @@
 
             $("#status").change(function () {
                 var stat = $(this).val();
+                if (stat == "") {
+                    $("#NT").show();
+                    $("#KL").show();
+                    $("#HKI").show();
+                }
                 if (stat == "rental") {
                     $("#NT").hide();
                     $("#KL").hide();
@@ -38,7 +48,7 @@
                 }
                 if (stat == "sale") {
                     $("#NT").show();
-                    $("#KL").hide();
+                    $("#KL").show();
                     $("#HKI").hide();
                 }
             })
@@ -57,7 +67,6 @@
     </div>
 
     <div class="container-md">
-        <footer class="border-bottom">
             <div class="row">
                 <div class="col">Name</div>
                 <div class="col">District</div>
@@ -68,19 +77,20 @@
                 <div class="col"><input type="text" name="search"></div>
                 <div class="col">
                     <select name="district" id="district">
-                    <option value="NT">New Territories</option>
-                    <option value="KL">Kowloon</option>
-                    <option value="HKI">Hong Kong Island</option>
-                  </select></div>
+                        <option value="">Show all</option>
+                        <option value="NT">New Territories</option>
+                        <option value="KL">Kowloon</option>
+                        <option value="HKI">Hong Kong Island</option>
+                    </select></div>
                   <div class="col">
                     <select name="status" id="status">
-                    <option value="rental">Rental</option>
-                    <option value="sale">Sale</option>
-                  </select></div>
+                        <option value="">Show all</option>
+                        <option value="rental">Rental</option>
+                        <option value="sale">Sale</option>
+                    </select></div>
                   <div class="col"><input type="text" name="price"></div>
             </div>
-        </footer>
-        <div class="row p-3 mb-2 bg-dark text-white">
+        <div class="row p-3 mt-2 mb-2 bg-dark text-white">
             <div class="col">Name</div>
             <div class="col-md">District</div>
             <div class="col">Area (sq.ft)</div>

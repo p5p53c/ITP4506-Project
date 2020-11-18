@@ -7,6 +7,30 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#delete").click(function () {
+                if (prompt("Enter \"CONFIRM\" to delete the property") == "CONFIRM") {
+                    alert("Property deleted");
+                    location.href="propertymanagement.html";
+                } else {
+                    alert("Action cancel")
+                    this.checked = true;
+                }
+            })
+
+            $("#update").click(function () {
+                alert("Info updated");
+                location.href = "Seapropertyinfo.html";
+            })
+
+            $("#pin").click(function () {
+                alert("Property Pined");
+                location.href = "propertymanagement.html";
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -56,13 +80,6 @@
                 </tr>
             </table>
         </form>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <input type="button" id="hide" value="Back" onclick="location.href='propertymanagement.html'">
-                </div>
-            </div>
-        </div>
         <footer class="pt-4 mt-5 border-top">
 		<center><h1>Comment</h1></center>
         <div class="row">
@@ -105,7 +122,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <input type="submit" id="update" value="Update">
+                        <input type="button" id="update" value="Update">
                     </div>
                     <div class="col">
                         <input type="button" id="pin" value="Pin">
@@ -114,7 +131,7 @@
                         <input type="button" id="delete" value="Delete Property">
                     </div>
                     <div class="col">
-                        <input type="reset" id="cancel" value="Cancel">
+                        <input type="reset" id="cancel" value="Cancel" onclick="location.href='propertymanagement.html'">
                     </div>
                 </div>
             </div>

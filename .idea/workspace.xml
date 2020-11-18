@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,9 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Fix Sign up Problem">
-      <change afterPath="$PROJECT_DIR$/user/calculator.html" afterDir="false" />
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Mortgage Calculator">
+      <change afterPath="$PROJECT_DIR$/manager/Kokopropertyinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/Seapropertyinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/Kokopropertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/Kokopropertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/Midpropertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/Midpropertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/Seapropertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/Seapropertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/addproperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/addproperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agentprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agentprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/agent/userappointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/agentmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/agentmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/managerprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/managerprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/propertyinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/Midpropertyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/propertymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/propertymanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/userappointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/userprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/usersearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/usersearch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +68,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manager" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\p5p53\Documents\GitHub\ITP4506-Project\manager" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITP4506-Project/index.html" useBuiltInWebServerPort="true">
@@ -82,7 +104,8 @@
       <workItem from="1605424781587" duration="10563000" />
       <workItem from="1605520407437" duration="4731000" />
       <workItem from="1605595925326" duration="3432000" />
-      <workItem from="1605606091672" duration="5075000" />
+      <workItem from="1605606091672" duration="5593000" />
+      <workItem from="1605684012257" duration="4251000" />
     </task>
     <task id="LOCAL-00001" summary="Change Many things">
       <created>1605436430199</created>
@@ -112,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605606148608</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mortgage Calculator">
+      <created>1605627852566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605627852566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,20 +164,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Change Many things" />
     <MESSAGE value="Fix Sign up Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Sign up Problem" />
+    <MESSAGE value="Mortgage Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mortgage Calculator" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="164" key="SettingsEditor" timestamp="1605425544219">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605685116675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605425544219" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605606154418">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605685116675" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605627857791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605606154418" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1605622500332">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605627857791" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605685538470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605622500332" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605685538470" />
   </component>
 </project>

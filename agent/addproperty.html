@@ -7,6 +7,16 @@
     <link href="..\bootstrap\bootstrap-4.5.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
+    <script src = "..\jslib\jquery-1.11.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#upload").click(function () {
+                alert("Property added");
+                if(confirm("Do you want to check the uploaded property info"))
+                    location.href = "propertymanagement.html"
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -21,6 +31,10 @@
     <div class="container">
         <form class="form-profile">
             <table class="table table-bordered">
+                <tr>
+                    <td>Property Image</td>
+                    <td><input type="file" accept="image/*"></td>
+                </tr>
                 <tr>
                     <td>Property Name</td>
                     <td><input type="text" name="name" value=""></td>
@@ -41,7 +55,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <input type="submit" id="upload" value="Upload">
+                        <input type="button" id="upload" value="Upload">
                     </div>
                     <div class="col">
                         <input type="reset" id="cancel" value="Cancel">
