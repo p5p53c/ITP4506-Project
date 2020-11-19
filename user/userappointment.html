@@ -15,6 +15,7 @@
                 if (rate > 0 && rate <= 10) {
                     $("#rateing1").prop("readonly", true);
                     document.getElementById("submit1").disabled = true;
+                    comment();
 					alert("Rateing submit success");
                 } else {
                     alert("Please input number between 1 to 10");
@@ -25,6 +26,7 @@
                 if (rate > 0 && rate <= 10) {
                     $("#rateing2").prop("readonly", true);
                     document.getElementById("submit2").disabled = true;
+                    comment();
 					alert("Rateing submit success");
                 } else {
                     alert("Please input number between 1 to 10");
@@ -35,11 +37,15 @@
                 if (rate > 0 && rate <= 10) {
                     $("#rateing3").prop("readonly", true);
                     document.getElementById("submit3").disabled = true;
+                    comment();
 					alert("Rateing submit success");
                 } else {
                     alert("Please input number between 1 to 10");
                 }
             })
+            function comment() {
+                prompt("Do you have any advisement?\nIf you have please leave it in the textarea, else keep it blank.")
+            }
         })
     </script>
 </head>
