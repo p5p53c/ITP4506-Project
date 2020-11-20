@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Change Agent Sign up from index to manager">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userappointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/userappointment.html" afterDir="false" />
-    </list>
+    <list default="true" id="afa67ea8-b910-4c4e-8d36-f998f679b678" name="Default Changelist" comment="Add rateing comment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
       <workItem from="1605595925326" duration="3432000" />
       <workItem from="1605606091672" duration="5593000" />
       <workItem from="1605684012257" duration="7816000" />
-      <workItem from="1605786925865" duration="2078000" />
+      <workItem from="1605786925865" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="Change Many things">
       <created>1605436430199</created>
@@ -158,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605788344626</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add rateing comment">
+      <created>1605789966173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605789966173</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,17 +188,18 @@
     <MESSAGE value="change many things" />
     <MESSAGE value="Fix Register page" />
     <MESSAGE value="Change Agent Sign up from index to manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Agent Sign up from index to manager" />
+    <MESSAGE value="Add rateing comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add rateing comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="164" key="SettingsEditor" timestamp="1605685116675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605685116675" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605788349040">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605789999003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605788349040" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605789999003" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605685538470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
